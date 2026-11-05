@@ -1,24 +1,24 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: KDE.Kaidan
 PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: Kaidan
-ReleaseDate: 2026-07-21
+ReleaseDate: 2026-11-05
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-6828-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 7AE0B8B53EC693BA11CB3D42E428C2B379BCBA3B231E497C2273DA63DC70A49E
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-7356-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 368F92397D6BAFF7CE86D3CA27C823845A7EB6FDCA5280DFA42DF4333803985D
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-6828-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 7AE0B8B53EC693BA11CB3D42E428C2B379BCBA3B231E497C2273DA63DC70A49E
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-7356-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 368F92397D6BAFF7CE86D3CA27C823845A7EB6FDCA5280DFA42DF4333803985D
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
